@@ -4,30 +4,136 @@
                <title>Cyber Security</title>
             </head>
         <body>
-
-            <h1>What is Cyber Security?</h1>
-            <p>A computer science degree with an emphasis in cybersecurity 
-                will provide broader computer education, covering everything 
-                from statistics and boolean logic to programming and web 
-                development. Cybersecurity, on the other hand, will provide 
-                the most security-centric education available.
-            </p>
-
-        </body>
+            <ul class="nav">
+                    <li><a href="">CS Varieties</a></li>
+                    <li><a href="">More Information</a></li>  
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="">About CS Jobs and Salaries</a></li>                    
+                    <li><a href="">Resources</a></li>  
+            </ul>
+                <div class="content">
+                    <h1 id="title">What is Cyber Security?</h1>
+                        <h3>A computer science degree with an emphasis in cybersecurity 
+                            will provide broader computer education, covering everything 
+                            from statistics and boolean logic to programming and web 
+                            development. Cybersecurity, on the other hand, will provide 
+                            the most security-centric education available.
+                        </h3>
+                    <div class="container">
+                        <div class="buttons">
+                            <button id="button2">Why should I major in Cybersecurity?</button>
+                            <button id="button3">What will I learn in a Cybersecurity program?</button>
+                            <button id="button4">What skills do I need for a career in Cybersecurity?</button>
+                            <button id="button5">How can i prepare for a Cybersecurity degree?</button>
+                        </div>
+                    </div>
+                    <div class="action">
+                        <p id="action"></p>
+                    </div>
+                </div>
+            </body>
 
         <style>
+            /*Navigation bar*/
+            .nav{
+                text-align: center;
+                margin: 0;
+                padding: 0;
+                background-color: black;
+                box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+                border-radius: 8px;
+            }
+            .nav li{
+                display: flex;
+                display: inline-block;
+                border: 1px solid #bbb;
+                justify-content: center;
+                border: none;
+                padding-left: 5%;
+                padding-right: 5%;
+            }
+            .nav a:hover{
+                color: blue;
+            }
+            .nav a{
+                color: white;
+                text-decoration: none;
+                font-size: 150%;
+            }
+            /*End of Nav bar*/
+
             body {
-                background-image: url('images/cyber2.jpg');
+                background-image: url('images/cyber3.jpg');
                 background-repeat: no-repeat;
                 background-attachment: fixed;
                 background-size: 100% 100%;
             }
-            h1, p{
+            h1, h3, p{
+                display: flex;
+                justify-content: center;
+                align-items: center;                
                 color: white;
+                padding: 1%;
+                padding-left: 15%;
+                padding-right: 15%;
             }
+
+            /*Buttons*/
+            .buttons{
+                display: flex;
+                justify-content: center;
+                align-items: center;      
+                padding-right:4%;          
+            }
+            button{
+                color: white;
+                background-color: black;
+                border-radius: 8px;
+                box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+                cursor: pointer;
+                margin: 10px;
+                width: 325px;
+                border: 10px;
+            }
+            button:hover{
+                color: green;
+            }
+
+            #title{
+                color: black;
+                padding-left: 12%;
+            }
+            .container{
+                justify-content: center;
+            }
+
         </style>
 
         <script>
+            var y=document.getElementById("button2");
+            y.addEventListener("click", function2);
             
+            var z=document.getElementById("button3");
+            z.addEventListener("click", function3);
+
+            var y=document.getElementById("button4");
+            y.addEventListener("click", function4);
+            
+            var z=document.getElementById("button5");
+            z.addEventListener("click", function5);
+
+
+                function function2(){
+                    document.getElementById("action").innerHTML = "Majoring in cybersecurity offers a unique and impactful path in the realm of technology and security. As a cybersecurity professional, you would become a guardian of the digital realm, equipped with the skills and knowledge to defend against an ever-growing array of cyber threats. In a world where digital assets, personal information, and critical infrastructure are at constant risk, your expertise would be invaluable in ensuring the confidentiality, integrity, and availability of data. With the increasing frequency and sophistication of cyberattacks, your role would be pivotal in safeguarding individuals, businesses, and governments from potentially devastating breaches and intrusions. By choosing to major in cybersecurity, you are not only investing in a rewarding and intellectually stimulating career, but also contributing to the resilience and security of the interconnected world we rely on.<br>";
+                }
+                function function3(){
+                    document.getElementById("action").innerHTML = "Third thing<br>";
+                }
+                function function4(){
+                    document.getElementById("action").innerHTML = "Fourth thing<br>";
+                }
+                function function5(){
+                    document.getElementById("action").innerHTML = "Fifth thing<br>";
+                }
         </script>
     </html> 
