@@ -46,7 +46,7 @@
             }
 
             /*Buttons*/
-            button{
+            #button2, #button3, #button4, #button5{
                 color: white;
                 background-color: transparent;
                 border-radius: 10px;
@@ -55,9 +55,13 @@
                 margin: 10px;
                 width: 325px;
                 border: 10px;
-                padding: 5px;
+                min-width: 325px;
+                max-width: 325px;
+                min-height: 70px;
+                max-height: 70px;
+                font-size: 20px;
             }
-            button:hover{
+            #button2:hover, #button3:hover, #button4:hover, #button5:hover{
                 color: rgb(0, 204, 255);
             }
 
