@@ -83,3 +83,37 @@ button.cyber{
     color: white;
     padding-left: 12%;
 }
+
+/*Resoruces table*/
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  #customers tr:hover {
+    background-color: rgb(41, 79, 161);
+  }
+
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: grey;
+    color: white;
+  }
+
+  td{
+    color: white;
+  }
+
+  td a{
+    color: rgb(94, 174, 201);
+  }
+/*End of Resources table*/
