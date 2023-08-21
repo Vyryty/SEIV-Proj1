@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" href="../css/navbar.css">
-		<link rel="stylesheet" href="../css/styles.css">
+		<link rel="stylesheet" href="css/navbar.css">
+		<link rel="stylesheet" href="css/styles.css">
 		
 		<nav>
 			 <a href="../index.html">Home</a>
@@ -12,17 +12,12 @@
 		</nav>
 
 		<style>
-			.centered {
-			  position: relative;
-			  left: 25%;
-			}
-
 			.accordion {
 			  background-color: #081c44;
 			  color: #ffffff;
 			  cursor: pointer;
 			  padding: 18px;
-			  width: 50%;
+			  width: 100%;
 			  border: none;
 			  text-align: center;
 			  outline: none;
@@ -37,8 +32,15 @@
 			.panel {
 			  display: none;
 			  overflow: hidden;
-			  position: relative;
-			  left: 0%;
+			}
+
+			ul {
+				color: #ffffff;
+				font-size: 16pt;
+			}
+
+			.centered {
+				margin-left: 25%;
 			}
 		</style>
 	</head>
@@ -51,7 +53,6 @@
 			learn more. Technology today is rapidly developing and it is vital to stay up to date 
 			as well as growing you skills. Overall a career with computer science is hard work.
 		</p>
-		<div class="centered">
 			<button class="accordion">Career in computer science</button>
 			<div class="panel">
 			<p>
@@ -70,14 +71,15 @@
 				transitioning from a junior to a senior may prove difficult if you aren't continually learning.
 			</p>
 			<h2> Example entry jobs </h2>
-			<ul>
-				<ol>Computer support specialist - $57,910 annual salary or $27.84 hourly</ol>
-				<ol>Web developer/designer - $78,300 annual salary or $37.65 hourly</ol>
-				<ol>Software developer - $109,020 annual salary or $52.41 hourly</ol>
-				<ol>Computer and information research scientist - $102,600 annual salary or $49.33 hourly</ol>
-			</ul>
+			<div class="centered">
+				<ul>
+					<li>Computer support specialist - $57,910 annual salary</li>
+					<li>Web developer/designer - $78,300 annual salary</li>
+					<li>Software developer - $109,020 annual salary</li>
+					<li>Computer and information research scientist - $102,600 annual salary</li>
+				</ul>
 			</div>
-		
+			</div>
 
 			<button class="accordion">Career in cybersecurity</button>
 			<div class="panel">
@@ -95,31 +97,36 @@
 				the rules and regulations that you must uphold.
 			</p>
 			<h2> Example entry jobs </h2>
-			<ul>
-				<ol>Information security analyst - $90,595</ol>
-				<ol>Information security specialist - $95,575</ol>
-				<ol>Digital forensic examiner - $82,918</ol>
-				<ol>IT auditor - $81,131</ol>
-			</ul>
+			<div class="centered">
+				<ul>
+					<li>Information security analyst - $90,595 annual salary</li>
+					<li>Information security specialist - $95,575 annual salary</li>
+					<li>Digital forensic examiner - $82,918 annual salary</li>
+					<li>IT auditor - $81,131 annual salary</li>
+				</ul>
+			</div>
 			</div>
 
 			<button class="accordion">Career in business</button>
 			<div class="panel">
 			<p>
-				Pros	
-				High demand for skill, 
-
-				Cons	
-				High competition, 
-				Hard to translate to non tech-savvy people,
+				A career in computer science with a business orientation possess an interesting set of jobs. 
+				Because it bridges a gap between the tech world and the business world, it is a career path high 
+				in demand. In turn, it additionally has a very wide range of jobs, one being data science, which 
+				is one of the most rapidly developing and in demand jobs today. Many of these jobs have a massive 
+				compensation. However many of these jobs require that you had a substantial amount of experience. 
+				Some jobs may require you to translate things to non tech-savvy people, which also demands for 
+				solid communication skills.
 			</p>
 			<h2> Example entry jobs </h2>
-			<ul>
-				<ol></ol>
-				<ol></ol>
-				<ol></ol>
-				<ol></ol>
-			</ul>
+			<div class="centered">
+				<ul>
+					<li>IT consultant - $83,026 annual salary</li>
+					<li>Data scientist - $106,910 annual salary</li>
+					<li>Business Analyst - $76,888 annual salary</li>
+					<li>Database Administrator Assistant - $55,509 annual salary</li>
+				</ul>
+			</div>
 			</div>
 
 			<button class="accordion">Career in gaming and animation</button>
@@ -138,12 +145,14 @@
 				overtime is also incredibly common.
 			</p>
 			<h2> Example entry jobs </h2>
-			<ul>
-				<ol>Programmer - $75,432</ol>
-				<ol>Level designer - $64,590</ol>
-				<ol>Game designer - $67,774</ol>
-				<ol>Ai programmer - $99,478</ol>
-			</ul>
+			<div class="centered">
+				<ul>
+					<li>Programmer - $75,432 annual salary</li>
+					<li>Level designer - $64,590 annual salary</li>
+					<li>Game designer - $67,774 annual salary</li>
+					<li>Ai programmer - $99,478 annual salary</li>
+				</ul>
+			</div>
 			</div>
 
 			<button class="accordion">Career in ai</button>
@@ -157,14 +166,15 @@
 				source of their data.
 			</p>
 			<h2> Example entry jobs </h2>
-			<ul>
-				<ol></ol>
-				<ol></ol>
-				<ol></ol>
-				<ol></ol>
-			</ul>
+			<div class="centered">
+				<ul>
+					<li>AI Trainer/Annotator - $76,922 annual salary</li>
+					<li>Junior Machine Learning Engineer - $108,086 annual salary</li>
+					<li>AI & Data Analyst - $89,963 annual salary</li>
+					<li>Junior AI Researcher - $64,179 annual salary</li>
+				</ul>
 			</div>
-		</div>
+			</div>
 
 		<script>
 			var acc = document.getElementsByClassName("accordion");
